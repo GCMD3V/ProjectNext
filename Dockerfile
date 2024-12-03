@@ -37,4 +37,5 @@ CMD ["npm", "run", "dev"]
 # git branch -M main
 # git pull origin main
 # git checkout -b nome-da-branch origin/nome-da-branch
-# git branch - u main
+# git branch - u main        OU   git branch --set-upstream-to=origin/main
+
