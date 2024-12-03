@@ -32,9 +32,9 @@ CMD ["npm", "run", "dev"]
 # ->ESSE COMANDO RODA A IMAGEM EM UM CONTAINER, PERMITE ACESSAR A PORTA 3000, APONTA O VOLUME PARA A PASTA DO PROJETO E ACESSA O BASH (AO APONTAR A PASTA, PERMITE RELACIONAR O VOLUME DOCKER COM A PASTA DO PROJETO SALVANDO AS  ALTERAÇÕES TANTO NO CONTAINER QUANTO NO HOST)
 #docker run -it -p 3000:3000 -v C:\Desenvolvimento\ProjetoNext\docker-build\my-next-app:/usr/src/app node-container /bin/bash
 
-git init
-git add origin URL
-git branch -M main
-git pull origin main
-git checkout -b nome-da-branch origin/nome-da-branch
-git branch --set-upstream-to=origin/main
+# git init
+# git add origin URL
+# git branch -M main
+# git pull origin main
+# git checkout -b nome-da-branch origin/nome-da-branch
+# git branch - u main
